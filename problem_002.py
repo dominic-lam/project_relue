@@ -27,7 +27,11 @@ if __name__ == '__main__':
     #By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 
     # old_method()
+    # ---Time spent:  9.059906005859375e-06 seconds ---
 
-    # print(sum(i for i in fib(4000000) if i%2 == 0))
-    print(list(i for i in fib(100)))
+    #Method 2,
+    print(sum(i for i in fib(4000000) if i%2 == 0))
+    #---Time spent:  1.4066696166992188e-05 seconds ---
+
+    #print(list(i for i in fib(100)))
     print("---Time spent:  %s seconds ---" % (time.time() - start_time))
