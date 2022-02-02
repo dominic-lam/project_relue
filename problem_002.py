@@ -28,6 +28,6 @@ if __name__ == '__main__':
 
     # old_method()
 
-    # print(sum(i for i in fib(4000000) if i%2 == 0))
-    print(list(i for i in fib(100)))
+    print(sum(i for i in fib(4000000) if i%2 == 0))
+    # print(list(i for i in fib(100)))
     print("---Time spent:  %s seconds ---" % (time.time() - start_time))
